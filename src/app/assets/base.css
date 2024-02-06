@@ -1,0 +1,64 @@
+/*
+* Цвета интерфейса и стандартная светлая тема интерфейса
+**/
+:root {
+  --primary: #845EF7;
+  --primary-hover: #A5AFFB;
+  --second: #BE52F2;
+  --second-hover: #DBA5F5;
+  --success: #2F9E44;
+  --success-hover: rgb(58, 199, 83);
+  --info: #4C6EF5;
+  --info-hover: #66B5F8;
+  --warning: #E67700;
+  --warning-hover: #FFC7A6;
+  --danger: #FA5252;
+  --danger-hover: #FDAFBB;
+
+  --gray-0: #F8F9FA;
+  --gray-3: #DEE2E6;
+  --gray-6: #868E96;
+  --gray-8: #343A40;
+
+  --color-background: #fafafa;
+
+  --shadow-base: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+  --shadow-medium: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 10px 20px 0px rgba(0, 0, 0, 0.04);
+  --shadow-large: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 2px 6px 0px rgba(0, 0, 0, 0.04), 0px 16px 24px 0px rgba(0, 0, 0, 0.06);
+  --shadow-extra-large: 0 0 1px 0 rgba(0, 0, 0, 0.04), 0 4px 8px 0px rgba(0, 0, 0, 0.04), 0 16px 24px 0 rgba(0, 0, 0, 0.04), 0 24px 32px 0 rgba(0, 0, 0, 0.04);
+
+  color-scheme: light;
+}
+
+/*
+* Темная тема интерфейса
+**/
+.dark {
+  --color-background: #343A40;
+
+  --gray-0: #343A40;
+  --gray-3: #868E96;
+  --gray-6: #DEE2E6;
+  --gray-8: #F8F9FA;
+
+  color-scheme: dark;
+}
+
+
+/*
+* Сброс начальный настроек
+**/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+* Настройка шрифтов
+**/
+/*
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../fonts/MyCustomFont.ttf') format('truetype');
+}*/

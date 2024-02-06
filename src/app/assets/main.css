@@ -1,0 +1,23 @@
+@import 'base.css';
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  color: var(--gray-8);
+  background: var(--color-background);
+  line-height: 1.6;
+  font-weight: normal;
+  font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
